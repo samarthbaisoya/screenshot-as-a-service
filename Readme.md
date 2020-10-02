@@ -4,7 +4,7 @@ A simple screenshot web service powered by [Express](http://expressjs.com) and [
 
 ## Setup
 
-First [install](http://code.google.com/p/phantomjs/wiki/Installation) phantomjs, then clone this repo and install the deps:
+First [install](http://code.google.com/p/phantomjs/wiki/Installation) phantomjs, then clone this repository and install the deps:
 
 ```
 $ npm install
@@ -19,7 +19,7 @@ Express server listening on port 3000
 
 ## Usage
 
-For a quick test with the command line, type:
+For a quick test in the command line, type:
 
 ```sh
 $ curl http://localhost:3000/?url=www.google.com > google.png
@@ -68,7 +68,7 @@ GET /?url=www.google.com&delay=1000
 GET /form.html
 ```
 
-Screenshots are cached for one minute, so that frequent requests for the same screenshot don't slow the service down. You can adjust or disable caching in the project configuration (see below).
+Screenshots are cached for one minute, so that frequent requests for the same screenshot don't slowdown the service. You can adjust or disable caching in the project configuration (see below).
 
 ## Configuration
 
